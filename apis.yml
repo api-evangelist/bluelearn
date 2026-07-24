@@ -1,8 +1,23 @@
 aid: bluelearn
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bluelearn.png
 name: Bluelearn
-description: Bluelearn is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Bluelearn was an India-based community-driven learning and edtech startup backed by Lightspeed
+  Venture Partners, added to the API Evangelist network as a portfolio-lead stub for enrichment. As of this
+  enrichment pass the company appears inactive - its primary domain (bluelearn.in) no longer serves a product
+  site and instead resolves to a parked GoDaddy lander page, with no reachable HTTPS endpoint, developer portal,
+  documentation, or public API surface. No OpenAPI, SDK, or other machine-readable API artifacts were found to
+  search, generate, or derive from. This profile remains a lead pending any revived public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/bluelearn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +27,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Education
+- EdTech
+- Learning
+- Community
+- India
+- Inactive
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
